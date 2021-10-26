@@ -139,7 +139,7 @@ Pig.eat()
 Dongdong.eat()
 ```
 
-![image-20211022233811852](C:\Users\JSYRD\AppData\Roaming\Typora\typora-user-images\image-20211022233811852.png)
+![image-20211022233811852](..\image-20211022233811852.png)
 
 这就是类和对象。同一个类下的对象拥有所有类的属性和方法，但是他们同时又是相互独立的。
 
@@ -178,7 +178,7 @@ Dongdong = Human("Dongdong")
 Dongdong.speak("I'm not saying anything.")
 ```
 
-![image-20211022234731569](C:\Users\JSYRD\AppData\Roaming\Typora\typora-user-images\image-20211022234731569.png)
+![image-20211022234731569](..\image-20211022234731569.png)
 
 这里有一个需要注意的点，虽然继承了父类，但是父类的属性并没有初始化，因此要在Human的\_\_init\_\_方法里手动初始化Animal的name。
 
