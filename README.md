@@ -1,11 +1,6 @@
-这是ECNUCS编程俱乐部的主页测试页面
+ECNU CS Programming Club
 ======
+这里是华师大计算机编程俱乐部的小主页。平时上机的一些资料会放在这里，便于各位阅读和下载。
 
-```c
-#include <stdio.h>
-int main(){
-    printf("Hello World!");
-    return 0;
-}
-```
+###[Lecture 1](https://www.ecpc.top/Clubbbbbb/Lecture1/Lecture1.md)
 
