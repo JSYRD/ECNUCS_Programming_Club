@@ -56,7 +56,7 @@ a:hover small {
 
 .wrapper {
   width:860px;
-  margin:0 auto;
+  margin:0;
 }
 
 blockquote {
@@ -197,7 +197,7 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
-    width:auto;
+    width: 1000px;
     margin:0;
   }
 
