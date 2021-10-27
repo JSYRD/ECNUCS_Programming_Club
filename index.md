@@ -30,7 +30,7 @@ ECNU CS Programming Club
 
 ## 参考资料
 
-* <h3><a href="./Clubbbbbb/References/设计有趣的游戏-pdf.pdf">设计有趣的游戏</a></h3>
+* <h3><a target="_blank" href="./Clubbbbbb/References/设计有趣的游戏-pdf.pdf">设计有趣的游戏</a></h3>
 
 
 
@@ -46,7 +46,6 @@ ECNU CS Programming Club
 
 ## 其它学习资源
 
-* <h3><a href="https://www.bilibili.com">比利♂比利</a></h3>
-
-* <h3><a href="https://www.runoob.com">菜鸟教程</a></h3>
+* <h3><a target="_blank" href="https://www.bilibili.com">比利♂比利</a></h3>
+* <h3><a target="_blank" href="https://www.runoob.com">菜鸟教程</a></h3>
 
