@@ -4,7 +4,7 @@ ECNU CS Programming Club
 
 
 
-##课程信息
+<h2>课程信息</h2>
 
 * 联系信息：杨润东 QQ1353097778, Tel:17513533721
 
@@ -30,11 +30,11 @@ ECNU CS Programming Club
 
 ## 参考资料
 
-**设计有趣的游戏** [下载](./Clubbbbbb/References/设计有趣的游戏-pdf.pdf)
+* <h3><a href="./Clubbbbbb/References/设计有趣的游戏-pdf.pdf">设计有趣的游戏</a></h3>
 
 
 
-##讲义
+<h2>讲义</h2>
 
 * <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 1</a></h3>
 
@@ -46,6 +46,7 @@ ECNU CS Programming Club
 
 ## 其它学习资源
 
-* ###[比利♂比利](https://www.bilibili.com)
+* <h3><a href="https://www.bilibili.com">比利♂比利</a></h3>
 
-* ### [菜鸟教程](https://www.runoob.com)
+* <h3><a href="https://www.runoob.com">菜鸟教程</a></h3>
+
