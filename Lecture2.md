@@ -7,5 +7,5 @@ Lecture 2
 
 
 
-* 关于Temp的注释[在线阅览](https://www.ecpc.top/Clubbbbbb/Lecture2/Code_Comments/Temp的注释.html)  <a target="_blank" href="./Clubbbbbb/Lecture1/Code_Comments/Temp的注释.pdf">下载PDF</a>
+* 关于Temp的注释[在线阅览](https://www.ecpc.top/Clubbbbbb/Lecture2/Code_Comments/Temp的注释.html)  <a target="_blank" href="./Clubbbbbb/Lecture2/Code_Comments/Temp的注释.pdf">下载PDF</a>
 
