@@ -51,7 +51,7 @@ ECNU CS Programming Club
 
 * <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 1</a></h3>
 
-* <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 2</a></h3>
+* <h3><a href="https://www.ecpc.top/Lecture2.html">Lecture 2</a></h3>
 
 -----
 

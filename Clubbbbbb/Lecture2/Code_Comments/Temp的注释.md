@@ -1,3 +1,6 @@
+# Temp的注释
+
+```python
 import pygame
 import os#import pygame和os
 DEFAULTSIZE = (1080,720)
@@ -63,3 +66,6 @@ while True:#游戏主循环
         ball.update()
     fclock.tick(60)#限定时钟速度
     pygame.display.flip()#更新屏幕
+```
+
+这里就只放一个注释，后面我会把pygame的这些基本知识点分解出来单独上传。
