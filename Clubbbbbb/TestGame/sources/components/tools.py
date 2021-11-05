@@ -32,11 +32,12 @@ def loadGraphics(path, accept=('.jpg','.png','.bmp','.gif')):
                 img = img.convert()
             graphics[name] = img
     return graphics
+
 def getImage(sheet, x, y, width, height, colorkey, scale):
     image = pygame.Surface((width, height))
     image.blit(sheet, (0,0), (x, y, width, height))
     image.set_colorkey(colorkey)
-    image = pygame.transform.scale(image, (int(width*scale)), (int(height *scale)))
+    # image = pygame.transform.scale(image, int(width*scale), int(height*scale))
     return image
 
 if __name__ == "__main__":

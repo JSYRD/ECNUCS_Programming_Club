@@ -29,9 +29,11 @@ ECNU CS Programming Club
     > 明天（11.5）晚上六点半正常上课。因为突然多了几节课，我打算先讲点其它的帮助大家理解编程的知识和技巧。 
     > 鉴于大家提出的意见，明天不出意外会有同步的腾讯会议，方便后排的同学看到代码。同时在结束后会放出录屏方便各位回看。
 
+* ### 2021/11/5
 
-
-
+    > 第二次上课录像已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1Q3411k7xb?spm_id_from=333.999.0.0">第二次录像</a>
+    
+    
 
 ## 答疑
 
@@ -49,7 +51,7 @@ ECNU CS Programming Club
 
 * <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 1</a></h3>
 
-
+* <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 2</a></h3>
 
 -----
 

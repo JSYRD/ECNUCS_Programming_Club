@@ -1,6 +1,6 @@
 import os
 import pygame
-from components import snake,tools
+from components import ball,tools
 import data.config as cfg
 from sys import exit
 

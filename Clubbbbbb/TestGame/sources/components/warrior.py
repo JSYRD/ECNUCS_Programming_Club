@@ -4,30 +4,38 @@ import states.level
 class Warrior(pygame.sprite.Sprite):
     def __init__(self, height):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("./images/warrior.gif","The ball")
-        self.rect = self.image.get_rect()
-        # self.image.set_colorkey((255,255,255))
+        self.loadImages()
         self.windowsInfo = pygame.display.Info()
         self.rect.center = (100,self.windowsInfo.current_h-height-70)
         self.speed = 2
         self.facingAt = 1
+
+
     def loadImages(self):
-        sheet = tools.loadGraphics("./images/Warrior.png")
+        # sheet = tools.loadGraphics("./images/Warrior.png")
+        sheet = pygame.image.load("./images/Warrior.png")
         self.frames = []
         self.rightFrames = []
         self.leftFrames = []
         frameRects = [
             (0,0,64,64),
             (64,0,64,64),
+
             (128,0,64,64),
             (192,0,64,64),
         ]
         
         for frameRect in frameRects:
-            leftImage = tools.get_image(sheet, *frameRect, (0,0,0), (64,64))
+            leftImage = tools.getImage(sheet, *frameRect, (0,0,0), (64,64))
             rightImage = pygame.transform.flip(tools.getImage(sheet, *frameRect, (0,0,0), (64,64)),True, False)
             self.rightFrames.append(rightImage)
-            self.leftFrames.append(leftImaeg)
+            self.leftFrames.append(leftImage)
+        self.frameIndex=0
+        self.frames = self.rightFrames
+        self.image = self.frames[self.frameIndex]
+        self.rect = self.image.get_rect()
+        self.image.set_colorkey((255,255,255))
+
 
     def changeCompass(self):
         pass
@@ -42,8 +50,22 @@ class Warrior(pygame.sprite.Sprite):
             self.rect.bottom = self.windowsInfo.current_h-height
     def turn(self):
         self.speed = self.speed*-1
-    def move(self, posx, posy):
+    def moveTo(self, posx, posy):
         self.rect.center = (posx, posy)
+    def display(self,screen):
+        screen.blit(self.image,self.rect)
     def update(self, keys):
         self.limit(400, 332)
-        self.rect = self.rect.move(self.speed, 0)
+        currentTime = pygame.time.get_ticks()
+        runningTime = 0
+        if keys[pygame.K_RIGHT]:
+            self.rect.move(5,0)
+            self.frames = self.rightFrames
+        if keys[pygame.K_LEFT]:
+            self.rect.move(-5,0)
+            self.frames = self.leftFrames
+        if currentTime > 100:
+            runningTime = currentTime
+            self.frameIndex += 1
+            self.frameIndex %= 4
+        self.image = self.frames[self.frameIndex]
