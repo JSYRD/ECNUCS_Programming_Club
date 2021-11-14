@@ -50,7 +50,7 @@ flag = pygame.RESIZEABLE | pygame.SCALED
 >
 >   This function will create a display Surface. The arguments passed in are requests for a display type. The actual created display will be the best possible match supported by the system.
 >
->   Note that calling this function ‎隐 式‎ initializes `pygame.display`, if it was not initialized before.
+>   Note that calling this function ‎implicitly‎ initializes `pygame.display`, if it was not initialized before.
 >
 >   The size argument is a pair of numbers representing the width and height. The flags argument is a collection of additional options. The depth argument represents the number of bits to use for color.
 >
