@@ -47,7 +47,7 @@ ECNU CS Programming Club
 
 * <h3><a target="_blank" href="./Clubbbbbb/References/设计有趣的游戏-pdf.pdf">设计有趣的游戏</a></h3>
 
-* <h3><a target="_blank" href="./Clubbbbbb/References/Summary/pygame详细知识点.md">pygame详细知识点</a></h3>
+* <h3><a target="_blank" href="./Clubbbbbb/References/Summary/pygame详细知识点.html">pygame详细知识点</a></h3>
 
 
 

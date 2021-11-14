@@ -79,5 +79,5 @@ for event in eventList:
 
 ​	来对各种不同的按键作出不同的反馈。
 
-还有一个关于pygame.display.set_mode(SIZE,mode)，请[移步此处](./pygame窗口.md)
+还有一个关于pygame.display.set_mode(SIZE,mode)，请[移步此处](./pygame窗口.html)
 
