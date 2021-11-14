@@ -34,7 +34,7 @@ class Ball(pygame.sprite.Sprite):#Ball类的定义
 
 pygame.init()
 pygame.display.set_caption("Hello World!")
-SCREEN = pygame.display.set_mode(DEFAULTSIZE,pygame.RESIZABLE)#初始化三板斧
+SCREEN = pygame.display.set_mode(DEFAULTSIZE,pygame.NOFRAME)#初始化三板斧
 myBalls = []
 for i in range(2):
     myBalls.append(Ball())#使用列表来存放对象

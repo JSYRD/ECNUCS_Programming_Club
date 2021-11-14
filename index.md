@@ -33,7 +33,9 @@ ECNU CS Programming Club
 
     > 第二次上课录像已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1Q3411k7xb?spm_id_from=333.999.0.0">第二次录像</a>
     
-    
+* ### 2021/11/14
+
+    > pygame的详细知识点已经在陆续上传。
 
 ## 答疑
 
@@ -44,6 +46,8 @@ ECNU CS Programming Club
 ## 参考资料
 
 * <h3><a target="_blank" href="./Clubbbbbb/References/设计有趣的游戏-pdf.pdf">设计有趣的游戏</a></h3>
+
+* <h3><a target="_blank" href="./Clubbbbbb/References/Summary/pygame详细知识点.md">pygame详细知识点</a></h3>
 
 
 
