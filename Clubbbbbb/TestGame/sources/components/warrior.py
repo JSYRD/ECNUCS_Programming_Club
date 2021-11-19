@@ -13,16 +13,19 @@ class Warrior(pygame.sprite.Sprite):
 
     def loadImages(self):
         # sheet = tools.loadGraphics("./images/Warrior.png")
-        sheet = pygame.image.load("./images/Warrior.png")
+        sheet = pygame.image.load("./images/Warrior.png").convert_alpha()
         self.frames = []
         self.rightFrames = []
         self.leftFrames = []
         frameRects = [
             (0,0,64,64),
             (64,0,64,64),
-
             (128,0,64,64),
             (192,0,64,64),
+            (256,0,64,64),
+            (320,0,64,64),
+            (384,0,64,64),
+            (448,0,64,64),
         ]
         
         for frameRect in frameRects:
@@ -34,7 +37,7 @@ class Warrior(pygame.sprite.Sprite):
         self.frames = self.rightFrames
         self.image = self.frames[self.frameIndex]
         self.rect = self.image.get_rect()
-        self.image.set_colorkey((255,255,255))
+        # self.image.set_colorkey((255,255,255))
 
 
     def changeCompass(self):
@@ -52,12 +55,10 @@ class Warrior(pygame.sprite.Sprite):
         self.speed = self.speed*-1
     def moveTo(self, posx, posy):
         self.rect.center = (posx, posy)
-    def display(self,screen):
-        screen.blit(self.image,self.rect)
-    def update(self, keys):
-        self.limit(400, 332)
+    def update(self, keys, screen):
         currentTime = pygame.time.get_ticks()
         runningTime = 0
+        self.limit(400, 332)
         if keys[pygame.K_RIGHT]:
             self.rect.move(5,0)
             self.frames = self.rightFrames
@@ -69,3 +70,4 @@ class Warrior(pygame.sprite.Sprite):
             self.frameIndex += 1
             self.frameIndex %= 4
         self.image = self.frames[self.frameIndex]
+        screen.blit(self.image,self.rect)
