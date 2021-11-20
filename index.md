@@ -36,6 +36,10 @@ ECNU CS Programming Club
 * ### 2021/11/14
 
     > pygame的详细知识点已经在陆续上传。
+    
+* ### 2021/11/21
+    > 第三次上课录像（后半）已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1Z34y1d7zb/">第三次录像</a>
+    > 前半我会再录视频单独上传
 
 ## 答疑
 
@@ -56,6 +60,9 @@ ECNU CS Programming Club
 * <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 1</a></h3>
 
 * <h3><a href="https://www.ecpc.top/Lecture2.html">Lecture 2</a></h3>
+
+* <h3><a href="https://www.ecpc.top/Lecture3.html">Lecture 3</a></h3>
+
 
 -----
 

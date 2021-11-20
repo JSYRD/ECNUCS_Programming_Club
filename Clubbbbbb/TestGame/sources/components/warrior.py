@@ -13,7 +13,7 @@ class Warrior(pygame.sprite.Sprite):
 
     def loadImages(self):
         # sheet = tools.loadGraphics("./images/Warrior.png")
-        sheet = pygame.image.load("./images/Warrior.png").convert_alpha()
+        sheet = pygame.image.load("./images/Warrior.png")
         self.frames = []
         self.rightFrames = []
         self.leftFrames = []
@@ -27,9 +27,8 @@ class Warrior(pygame.sprite.Sprite):
             (384,0,64,64),
             (448,0,64,64),
         ]
-        
         for frameRect in frameRects:
-            leftImage = tools.getImage(sheet, *frameRect, (0,0,0), (64,64))
+            leftImage = pygame.Surface((64,64)).blit(sheet,)
             rightImage = pygame.transform.flip(tools.getImage(sheet, *frameRect, (0,0,0), (64,64)),True, False)
             self.rightFrames.append(rightImage)
             self.leftFrames.append(leftImage)
