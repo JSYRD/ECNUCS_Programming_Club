@@ -1,5 +1,7 @@
 import pygame
-import os#import pygame和os
+import os
+
+from pygame.sprite import Group, collide_mask#import pygame和os
 DEFAULTSIZE = (1080,720)
 BG_COLOR = (255,255,255)#常量设置
 class Ball(pygame.sprite.Sprite):#Ball类的定义
@@ -12,6 +14,7 @@ class Ball(pygame.sprite.Sprite):#Ball类的定义
         self.rect.center = (self.windowsInfo.current_w/2,self.windowsInfo.current_h/2)
         self.speedX = 0
         self.speedY = 0#对象的初始属性
+        self.mask = pygame.mask.from_surface(self.image)
     def move(self,x,y):#移动
         self.speedY=0#让球停下来
         self.rect.center = (x,y)#移动到x,y
@@ -35,11 +38,11 @@ class Ball(pygame.sprite.Sprite):#Ball类的定义
 pygame.init()
 pygame.display.set_caption("Hello World!")
 SCREEN = pygame.display.set_mode(DEFAULTSIZE,pygame.RESIZABLE)#初始化三板斧
-myBalls = []
-for i in range(2):
-    myBalls.append(Ball())#使用列表来存放对象
 fclock = pygame.time.Clock()#时钟
-
+ballGroup = pygame.sprite.Group()
+ballGroup.add(Ball())
+ballList = ballGroup.sprites()
+myBall = Ball()
 while True:#游戏主循环
     SCREEN.fill(BG_COLOR)
     eventList = pygame.event.get()
@@ -49,17 +52,21 @@ while True:#游戏主循环
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_ESCAPE):
                 exit()
-            if(event.key == pygame.K_RIGHT):
-                myBalls[0].run(1, 0)
-            if(event.key == pygame.K_LEFT):
-                myBalls[0].run(-1, 0)
-            if(event.key == pygame.K_UP):
-                myBalls[0].run(0, -1)
-            if(event.key == pygame.K_DOWN):
-                myBalls[0].run(0, 1)
+            # if(event.key == pygame.K_RIGHT):
+            #     myBalls[0].run(1, 0)
+            # if(event.key == pygame.K_LEFT):
+            #     myBalls[0].run(-1, 0)
+            # if(event.key == pygame.K_UP):
+            #     myBalls[0].run(0, -1)
+            # if(event.key == pygame.K_DOWN):
+            #     myBalls[0].run(0, 1)
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            myBalls[0].move(event.pos[0],event.pos[1])
-    for ball in myBalls:#让所有球都更新
-        ball.update()
-    fclock.tick(60)#限定时钟速度
+            ballList[0].move(event.pos[0],event.pos[1])
+            # for ball in iter(ballGroup):
+            #     myBalls[0].move(event.pos[0],event.pos[1])
+    # for ball in myBalls:#让所有球都更新
+        ballGroup.update()
+        myBall.update()
+    print(pygame.sprite.spritecollideany(myBall, ballGroup))
+    fclock.tick(30)#限定时钟速度
     pygame.display.flip()#更新屏幕

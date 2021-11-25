@@ -7,7 +7,6 @@ from sys import exit
 tools.setup()
 screen = pygame.display.set_mode(cfg.SIZE)
 myBall = ball.Ball()#create a ball
-
 while(True):
     eventList = pygame.event.get()
     screen.fill(cfg.BG_COLOR)

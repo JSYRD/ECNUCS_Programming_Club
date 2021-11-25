@@ -1,8 +1,9 @@
 # Pygame详细知识点
 
-* <h3><a target="_blank" href="./pygame最小开发框架.html">pygame最小开发框架</a></h3>
+* [pygame最小开发框架](./pygame最小开发框架.html)   <a target="_blank" href="./pygame最小开发框架.pdf">下载PDF</a>
 
-* <h3><a target="_blank" href="./pygame窗口.html">pygame窗口</a></h3>
+* [pygame窗口](./pygame窗口.html)   <a target="_blank" href="./pygame窗口.pdf">下载PDF</a>
 
-* <h3><a target="_blank" href="./pygame时钟.html">pygame时钟</a></h3>
+* [pygame时钟](./pygame时钟.html)   <a target="_blank" href="./pygame时钟.pdf">下载PDF</a>
 
+* [pygame精灵类](./pygame精灵类.html)   <a target="_blank" href="./pygame精灵类.pdf">下载PDF</a>

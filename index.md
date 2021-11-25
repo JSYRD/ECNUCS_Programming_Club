@@ -40,6 +40,10 @@ ECNU CS Programming Club
 * ### 2021/11/21
     > 第三次上课录像（后半）已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1Z34y1d7zb/">第三次录像</a>
     > 前半我会再录视频单独上传
+    
+* ### 2021/11/25
+
+	> pygame知识点更新。
 
 ## 答疑
 
