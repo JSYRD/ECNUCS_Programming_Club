@@ -1,4 +1,4 @@
-#pygame最小开发框架
+# pygame最小开发框架
 
 
 ```python
@@ -29,7 +29,7 @@ while True:
 
 这里需要解释的大概有两点：
 
-###1. 关于`pygame.display.init()`:
+### 1. 关于`pygame.display.init()`:
 
 ​	对这个问题感兴趣的同学可以阅读 [【pygame】pygame的init() - sc0T7_ly - 博客园 (cnblogs.com)](https://www.cnblogs.com/scott-lv/p/9280154.html)
 
