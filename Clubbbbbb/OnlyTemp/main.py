@@ -21,8 +21,7 @@ class player(pygame.sprite.Sprite):
             self.Counter = 0
             self.frameCount += 1
             self.frameCount %= self.frameNumber
-        # self.rect = self.rect.move(10,0)
-        screen.blit(self.image,(0,0),self.rect)
+        screen.blit(self.image,self.rect)
 
 
 pygame.init()

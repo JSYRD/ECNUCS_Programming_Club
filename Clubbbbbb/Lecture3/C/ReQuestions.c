@@ -4,6 +4,6 @@
 #include <ctype.h>
 #define N 100
 int main(){
-    int a=65;
+    char a='A';
     printf("%c",a);
 }

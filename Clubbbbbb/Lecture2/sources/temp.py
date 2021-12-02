@@ -68,5 +68,5 @@ while True:#游戏主循环
         ballGroup.update()
         myBall.update()
     print(pygame.sprite.spritecollideany(myBall, ballGroup))
-    fclock.tick(30)#限定时钟速度
+    fclock.tick(60)#限定时钟速度
     pygame.display.flip()#更新屏幕

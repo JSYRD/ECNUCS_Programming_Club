@@ -1,6 +1,9 @@
 import pygame
+from gameStates import level
+from components import warrior
+from components import beast
+from pygame.sprite import collide_mask
 import data.config as cfg
-import os
 def detectQuit(event):
     if event.type == (pygame.QUIT):
             print("Bye!")
@@ -14,31 +17,37 @@ def setup():
     pygame.init()
     pygame.display.set_caption("Warriors' Adventure")
 
-def flash(sprites,screen):
+def flash(keys,screen,sprites):
     fclock = pygame.time.Clock()
-    sprites.update()
-    sprites.draw(screen)
+    for group in sprites:
+        group.update(screen,keys)
     pygame.display.flip()
     fclock.tick(cfg.FPS)
-def loadGraphics(path, accept=('.jpg','.png','.bmp','.gif')):
-    graphics = {}
-    for pic in os.listdir(path):
-        name, ext = os.path.splitext(pic)
-        if ext.lower() in accept:
-            img = pygame.image.load(os.path.join(path, pic))
-            if(img.get_alpha()):
-                img = img.convert_alpha()
-            else:
-                img = img.convert()
-            graphics[name] = img
-    return graphics
 
-def getImage(sheet, x, y, width, height, colorkey, scale):
-    image = pygame.Surface((width, height))
-    image.blit(sheet, (0,0), (x, y, width, height))
-    # image.set_colorkey(colorkey)
-    # image = pygame.transform.scale(image, int(width*scale), int(height*scale))
-    return image
+def collidedDetect(group1, group2, ):
+    collideDict = pygame.sprite.groupcollide(group1,group2,False,True,collided=collide_mask)
+    if collideDict != {}:
+        for i in range(len(collideDict)+1):
+            group1.sprites()[0].score.addPoints(10)
+    return collideDict
+
+def setupWarriorGroup():
+    group = pygame.sprite.GroupSingle()
+    warrior0 = warrior.Warrior(332,"./images/huashi.png",3)
+    group.add(warrior0)
+    return group
+def setupBackground():
+    group = pygame.sprite.Group()
+    group.add(level.Level("./images/Level1.png"))
+    return group
+def setupBeastGroup():
+    group = pygame.sprite.Group()
+    for i in range(0,5):
+        yrd = beast.Beast(332,"./images/Warriort.png",8)
+        yrd.rect.center = (1920-100,yrd.windowsInfo.current_h-332-70)
+        yrd.changeCompass()
+        group.add(yrd)
+    return group
 
 if __name__ == "__main__":
     print("hello world!")
