@@ -44,6 +44,10 @@ ECNU CS Programming Club
 * ### 2021/11/25
 
 	> pygame知识点更新。
+	
+* ### 2021/12/2
+
+    > 第三次上课录像（前半）补录已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1xF4118797">第三次录像补</a>
 
 ## 答疑
 
@@ -63,9 +67,16 @@ ECNU CS Programming Club
 
 * <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 1</a></h3>
 
+  > * *关于ball的注释*
+  > * *关于环境变量和main.py的注释*
+
 * <h3><a href="https://www.ecpc.top/Lecture2.html">Lecture 2</a></h3>
 
+  > * *关于Temp的注释*
+
 * <h3><a href="https://www.ecpc.top/Lecture3.html">Lecture 3</a></h3>
+
+  > * *碰撞检测*
 
 
 -----
