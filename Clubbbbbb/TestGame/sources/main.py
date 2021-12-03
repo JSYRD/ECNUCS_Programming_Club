@@ -6,7 +6,7 @@ import data.config as cfg
 from sys import exit
 
 tools.setup()
-screen = pygame.display.set_mode(cfg.SIZE,pygame.FULLSCREEN)
+screen = pygame.display.set_mode(cfg.SIZE,pygame.FULLSCREEN)#surface
 
 backgroundSprites = tools.setupBackground()
 warriorGroup = tools.setupWarriorGroup()
@@ -27,4 +27,11 @@ while(True):
     # warrior.update(keys,screen)
     if(random.randint(1,100) == 1 and bool(beastGroup)):
         beastGroup.sprites()[random.randint(0,len(beastGroup)-1)].changeCompass()
-    tools.flash(keys,screen,sprites)
+    tools.flash(screen,keys,sprites)
+
+
+
+
+list = [1,2,3,4,5]
+list[1] = 2
+list[-1] = 5

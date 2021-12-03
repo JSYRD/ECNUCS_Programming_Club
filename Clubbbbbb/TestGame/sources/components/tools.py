@@ -17,17 +17,17 @@ def setup():
     pygame.init()
     pygame.display.set_caption("Warriors' Adventure")
 
-def flash(keys,screen,sprites):
+def flash(screen,keys,sprites):
     fclock = pygame.time.Clock()
     for group in sprites:
-        group.update(screen,keys)
+        group.update(screen,keys,sprites)
     pygame.display.flip()
     fclock.tick(cfg.FPS)
 
 def collidedDetect(group1, group2, ):
     collideDict = pygame.sprite.groupcollide(group1,group2,False,True,collided=collide_mask)
     if collideDict != {}:
-        for i in range(len(collideDict)+1):
+        for i in range(0,len(collideDict)):
             group1.sprites()[0].score.addPoints(10)
     return collideDict
 
@@ -38,7 +38,7 @@ def setupWarriorGroup():
     return group
 def setupBackground():
     group = pygame.sprite.Group()
-    group.add(level.Level("./images/Level1.png"))
+    group.add(level.Level("./images/Level1_long.png"))
     return group
 def setupBeastGroup():
     group = pygame.sprite.Group()

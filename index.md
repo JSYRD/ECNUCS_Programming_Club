@@ -48,6 +48,14 @@ ECNU CS Programming Club
 * ### 2021/12/2
 
     > 第三次上课录像（前半）补录已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1xF4118797">第三次录像补</a>
+    
+* ### 2021/12/3
+
+    > 第四次上课录像已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1ei4y1o72H">第四次录像</a>
+
+
+
+
 
 ## 答疑
 
@@ -77,6 +85,10 @@ ECNU CS Programming Club
 * <h3><a href="https://www.ecpc.top/Lecture3.html">Lecture 3</a></h3>
 
   > * *碰撞检测*
+  
+* <h3><a href="https://www.ecpc.top/Lecture4.html">Lecture 4</a></h3>
+
+  > * 碰撞检测 人物运动 代码下载
 
 
 -----
