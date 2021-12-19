@@ -2,6 +2,7 @@ import random
 import pygame
 from pygame.constants import MOUSEBUTTONDOWN
 from components import tools
+from components.beast import Beast
 import data.config as cfg
 from sys import exit
 
@@ -11,6 +12,7 @@ screen = pygame.display.set_mode(cfg.SIZE,pygame.FULLSCREEN)#surface
 backgroundSprites = tools.setupBackground()
 warriorGroup = tools.setupWarriorGroup()
 beastGroup = tools.setupBeastGroup()
+beastIterator = beastGroup.__iter__()
 sprites = [backgroundSprites,warriorGroup, beastGroup]
 
 while(True):

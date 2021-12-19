@@ -53,7 +53,11 @@ ECNU CS Programming Club
 
     > 第四次上课录像已经上传 <a target="_blank" href="https://www.bilibili.com/video/BV1ei4y1o72H">第四次录像</a>
 
+* ### 2021/12/17
 
+    > 第一届ECPC编程俱乐部已经圆满结束啦！感谢各位的支持！
+    >
+    > 所有打包文件合集[下载](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/ECNU_programming_Club.zip)（包含主页，源代码以及其他PDF文件）
 
 
 

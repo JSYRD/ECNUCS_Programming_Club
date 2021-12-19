@@ -62,4 +62,3 @@ class Pacman(pygame.sprite.Sprite):
             self.rect = self.rect.move(cfg.COMPASS[self.facingAt][0]*10,cfg.COMPASS[self.facingAt][1]*10)
         self.image = self.frames[self.facingAt][self.frameIndex]
         screen.blit(self.image,self.rect)
-
