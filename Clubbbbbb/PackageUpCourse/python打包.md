@@ -1,7 +1,7 @@
 python打包
 =====
 
-[点击下载本文档PDF ](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/Clubbbbbb/PackageUpCourse/python打包.pdf)
+[点击下载本文档PDF](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/Clubbbbbb/PackageUpCourse/python打包.pdf)
 
 需要用到的工具：
 

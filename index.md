@@ -73,7 +73,7 @@ ECNU CS Programming Club
 
 * <h3><a target="_blank" href="./Clubbbbbb/References/Summary/pygame详细知识点.html">pygame详细知识点</a></h3>
 
-* <h3><a target="_blank" href="./Clubbbbbb/PackageUpCourse/Summary/python打包.html">python打包</a></h3>
+* <h3><a target="_blank" href="./Clubbbbbb/PackageUpCourse/python打包.html">python打包</a></h3>
 
 <h2>讲义</h2>
 
