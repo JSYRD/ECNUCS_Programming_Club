@@ -16,12 +16,12 @@ def detectQuit(event):
         if event.key == pygame.K_ESCAPE:
             print("Bye!")
             exit()
-def flash(keys, screen,sprites):
+def flash(keys, screen,sprites, FPS):
     fclock = pygame.time.Clock()
     for group in sprites:
         group.update(keys, screen)
     pygame.display.flip()
-    fclock.tick(cfg.FPS)
+    fclock.tick(FPS)
 
 def collidedDetect(group1, group2) -> Dict:
     collideDict = pygame.sprite.groupcollide(group1,group2,False,True,collided=collide_mask)
