@@ -25,7 +25,7 @@ def flash(screen,keys,sprites):
     fclock.tick(cfg.FPS)
 
 def collidedDetect(group1, group2, ):
-    collideDict = pygame.sprite.groupcollide(group1,group2,False,True,collided=collide_mask)
+    collideDict = pygame.sprite.groupcollide(group1,group2,False,True)
     if collideDict != {}:
         for i in range(0,len(collideDict)):
             group1.sprites()[0].score.addPoints(10)
