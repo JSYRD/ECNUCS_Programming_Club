@@ -1,11 +1,11 @@
 python打包
 =====
 
-[点击下载本文档PDF](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/Clubbbbbb/PackageUpCourse/python打包.pdf)
+[点击下载本文档PDF](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/ECPC_2021/Clubbbbbb/PackageUpCourse/python打包.pdf)
 
 需要用到的工具：
 
-* Inno Setup Compiler [点击下载](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/Clubbbbbb/PackageUpCourse/innosetup-6.2.0.exe)
+* Inno Setup Compiler [点击下载](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/ECPC_2021/Clubbbbbb/PackageUpCourse/innosetup-6.2.0.exe)
 
 * Pyinstaller 安装方法见下文
 

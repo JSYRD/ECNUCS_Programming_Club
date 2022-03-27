@@ -2,7 +2,7 @@ Lecture 4
 ====
 
 * 时间 2021/12/3
-* 代码打包文件[下载](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/Clubbbbbb/Lecture4/sources.zip)
+* 代码打包文件[下载](https://raw.githubusercontent.com/JSYRD/ECNUCS_Programming_Club/main/ECPC_2021/Clubbbbbb/Lecture4/sources.zip)
 
 
 

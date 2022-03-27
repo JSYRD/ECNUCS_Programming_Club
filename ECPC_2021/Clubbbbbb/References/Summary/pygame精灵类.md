@@ -34,5 +34,5 @@ pygame精灵类
 
   > 创建一个只能有一个对象的组，一旦新的对象被加进去，旧的将被移除
 
-有关sprite碰撞相关知识，参见 [碰撞检测](https://www.ecpc.top/Clubbbbbb/Lecture3/碰撞检测.html)
+有关sprite碰撞相关知识，参见 [碰撞检测](https://www.ecpc.top/ECPC_2021/Clubbbbbb/Lecture3/碰撞检测.html)
 
