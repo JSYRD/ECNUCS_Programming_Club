@@ -13,7 +13,9 @@ ECNU CS Programming Club
 
 ## 公告
 
-### 
+* ### 2022/4/30
+
+  > <a target="_blank" href="https://www.bilibili.com/video/">第二次录像</a>和之前的代码已经上传，第三次上课录像由于损坏需要重新录制，可能会晚两天，抱歉！
 
 ## 答疑
 
@@ -27,9 +29,13 @@ ECNU CS Programming Club
 
 * <h3><a target="_blank" href="https://docs.oracle.com/en/java/javase/11/docs/api/">Oracle原版Java docs(可能要翻墙)</a></h3>
 
-<h2>讲义</h2>
+<h2>讲义&代码</h2>
 
+* <h3><a href="https://www.ecpc.top/Lecture1.html">Lecture 1</a></h3>
 
+* <h3><a href="https://www.ecpc.top/Lecture2.html">Lecture 2</a></h3>
+
+* <h3><a href="https://www.ecpc.top/Lecture3.html">Lecture 3</a></h3>
 
 
 -----
