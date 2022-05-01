@@ -15,7 +15,7 @@ ECNU CS Programming Club
 
 * ### 2022/4/30
 
-  > <a target="_blank" href="https://www.bilibili.com/video/">第二次录像</a>和之前的代码已经上传，第三次上课录像由于损坏需要重新配音，可能会晚两天，抱歉！
+  > <a target="_blank" href="https://www.bilibili.com/video/BV1GA4y1Q7MY/">第二次录像</a>和之前的代码已经上传，第三次上课录像由于损坏需要重新配音，可能会晚两天，抱歉！
 
 ## 答疑
 
